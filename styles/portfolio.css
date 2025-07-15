@@ -11,16 +11,83 @@
 .text-primary{
     color:  #4E47FF;
 }
+.dark-2{
+    color: #252432;
+}
+
+.btn-primary{
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding:15px 35px;
+    border-radius:15px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    border:none;
+}
+.btn-primary:hover {
+  background-color: #352ed6;
+}
+
 
 /* nav styles */
 nav{
+
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    margin: 0 200px;
+
 }
 .nav-title{
     font-weight: 800;
-    font-size: 45px;
+    font-size: 35px;
+}
+/*nav ul  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}*/
+
+nav ul li{
+    list-style: none;
+}
+nav li a {
+    text-decoration: none;
+}
+/* banner-section */
+.banner{
+        padding: 60px 20px;
+      text-align: center; 
+  min-height: 300px;     
 }
 
+.banner-heading{
+    font-size:  48px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
 
-
+.btn-primary-2{
+   background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding:15px 35px;
+    border-radius:15px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    border:none; 
+    display: inline-block;
+  margin-top: 10px;
+}
+.header-bg {
+  background-image: url('../Assets/Hero-bg.png');
+  background-size: 80%;
+  background-position: center  top;
+  color: white;
+  height: 450px;
+}
 
